@@ -8,4 +8,4 @@
  3. Open Chrome Browser
  4. In URL goto **chrome://extensions/**
  5. Turn "Developer Mode" on in top left
- 6. Click **Load Unpacked** and select the Unzipped Folder from step 2.
+ 6. Click **Load Unpacked** and select the Unzipped Folder from *step 2*.
