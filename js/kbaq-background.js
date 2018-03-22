@@ -26,6 +26,7 @@ function Volume(value) {
 //...
 function Play() {
    getAudio();
+   audio.volume = state.volume / 100;
    audio.play();
    chrome.browserAction.setBadgeText({
      text: "►"
