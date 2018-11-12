@@ -143,6 +143,15 @@ $(document).ready(function(){
       $("#volume div").width(0);
     }
 
+    //if the volume has been changed to less than half
+    if( $("input[type=range]").val() < 50 ) {
+      //add the class of "half" which will update the volume button ui.
+      $(".volume").addClass('half');
+    } else {
+      //Otherwise it was previously below half, remove the class half.
+      $(".volume").removeClass('half');
+    }
+
     //Music is playing and regardless if music is muted
     //update stream UI.
     getStreamInfo();
