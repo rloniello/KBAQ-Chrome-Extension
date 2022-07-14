@@ -20,6 +20,6 @@
    "manifest_version": 2,
    "name": "KBAQ Classical Music Player",
    "offline_enabled": false,
-   "permissions": [ "background", "storage", "https://kbaq.org/*", "https://kjzz.streamguys1.com/kbaq_mp3_128"],
-   "version": "1.2.0"
+   "permissions": [ "background", "https://kbaq.org/*", "https://kjzz.streamguys1.com/kbaq_mp3_128"],
+   "version": "1.2.2"
 }
